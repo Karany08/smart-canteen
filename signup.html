@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Canteen - Create Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="topbar">
+        <img src="logo.svg" alt="Smart Canteen logo" class="logo">
+    </div>
+    <main class="page">
+        <header class="hero">
+            <p class="badge">Poornima University - Smart Canteen</p>
+            <h1>Create your student account</h1>
+            <p>Register once to pre-order food and skip the queue at the canteen.</p>
+        </header>
+
+        <section class="panel login-panel">
+            <div class="panel-head">
+                <h2>New Account Details</h2>
+                <p>Fill in your academic details to activate login access.</p>
+            </div>
+            <form class="login-form">
+                <div class="row">
+                    <div class="field">
+                        <label for="fullName">Full Name</label>
+                        <input id="fullName" type="text" required placeholder="Enter your full name">
+                    </div>
+                    <div class="field">
+                        <label for="email">College Email</label>
+                        <input id="email" type="email" required placeholder="name@poornima.edu">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label for="enroll">Enrollment / Roll Number</label>
+                        <input id="enroll" type="text" required placeholder="PU24BCA101">
+                    </div>
+                    <div class="field">
+                        <label for="department">Department</label>
+                        <input id="department" type="text" required placeholder="BCA / CSE / ECE">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="field">
+                        <label for="createPassword">Create Password</label>
+                        <input id="createPassword" type="password" required placeholder="Minimum 8 characters">
+                    </div>
+                    <div class="field">
+                        <label for="confirmPassword">Confirm Password</label>
+                        <input id="confirmPassword" type="password" required placeholder="Re-enter password">
+                    </div>
+                </div>
+
+                <div class="row action-row">
+                    <button type="submit" class="primary-btn">Create Account</button>
+                    <a class="secondary-btn btn-link" href="login.html">Back to Login</a>
+                </div>
+                <p class="login-help">By creating an account, you agree to campus canteen guidelines.</p>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
